@@ -29,17 +29,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
       },
-      
-    viewDados: {
-        width: '70%',
-        padding: 10
-    },
-    poster : {
-        height: '200px',
-        width: '150px',
-        resizeMode: 'cover',
-        marginBottom: 10
-    },
     titulo: {
         fontSize: 18,
         fontWeight: 'bold',
