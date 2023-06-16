@@ -26,7 +26,7 @@ return (
       component={RecuperarSenha}/>
 
       <Stack.Screen name='MoviesPage' 
-      component={MoviesPages} options={{headerShown: false}}/>
+      component={MoviesPages} />
     
       <Stack.Screen name="MovieDetailsPage" component={MovieDetailsPage} />
 
