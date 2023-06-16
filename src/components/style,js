@@ -1,0 +1,66 @@
+import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const MAX_WIDTH = Dimensions.get('window').width*0.9;
+const MAX_HEIGHT =  Dimensions.get('window').height*0.8;
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        margin: 15,
+        padding: 10,
+        backgroundColor: 'yellow',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: MAX_HEIGHT,
+        width: MAX_WIDTH
+        
+    },
+    imagem: {
+        height: '200px',
+        width: '150px',
+        resizeMode: 'cover',
+        marginBottom: 10,
+
+    },
+    input: {
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+      },
+      
+    viewDados: {
+        width: '70%',
+        padding: 10
+    },
+    poster : {
+        height: '200px',
+        width: '150px',
+        resizeMode: 'cover',
+        marginBottom: 10
+    },
+    titulo: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        textAlign: 'center'
+
+    },
+    sinopse: {
+        marginBottom: 10
+    },
+    button: {
+        alignItems: 'center',
+        padding: '10px',
+        backgroundColor: '#00ffff',
+        width: '90%',
+        marginTop: 18
+      },
+      buttomLetra: {
+        fontSize: '20px',
+        color: 'green'
+
+      },
+    }); 
+
+export default styles;
